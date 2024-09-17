@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "+RcJ0m28BBbm9xI0LWOg0kc16tYMZ5Q24fG0tYv9evQeKh2gs8rFSi4QRRiT+ru9quM7+9axYzYc9D46Btz7Vg==",
-  "success": false,
+  "dgSpecHash": "+zDCOnxk9xNXo3GWIVRpungi7WLgFosFqpOGNIC6i+ADONZmfutvbSDXNQH7we0G/G35nDk0avl0FckHxzjsTQ==",
+  "success": true,
   "projectFilePath": "/home/matheus/Documents/CsProjects/DioChallenges/Minimal-api/minimal-api/minimal-api.csproj",
   "expectedPackageFiles": [
     "/home/matheus/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
@@ -34,7 +34,7 @@
     "/home/matheus/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/home/matheus/.nuget/packages/mono.texttemplating/3.0.0-preview-0052-g5d0f76c785/mono.texttemplating.3.0.0-preview-0052-g5d0f76c785.nupkg.sha512",
     "/home/matheus/.nuget/packages/mysqlconnector/2.3.5/mysqlconnector.2.3.5.nupkg.sha512",
-    "/home/matheus/.nuget/packages/pomelo.entityframeworkcore.mysql/9.0.0-preview.1/pomelo.entityframeworkcore.mysql.9.0.0-preview.1.nupkg.sha512",
+    "/home/matheus/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.2/pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "/home/matheus/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
     "/home/matheus/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
     "/home/matheus/.nuget/packages/system.composition/7.0.0/system.composition.7.0.0.nupkg.sha512",
@@ -58,9 +58,10 @@
   ],
   "logs": [
     {
-      "code": "NU1107",
-      "level": "Error",
-      "message": "Version conflict detected for Microsoft.EntityFrameworkCore.Relational. Install/reference Microsoft.EntityFrameworkCore.Relational 9.0.0-rc.1.24451.1 directly to project minimal-api to resolve this issue. \n minimal-api -> Microsoft.EntityFrameworkCore.Design 9.0.0-rc.1.24451.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-rc.1.24451.1) \n minimal-api -> Pomelo.EntityFrameworkCore.MySql 9.0.0-preview.1 -> Microsoft.EntityFrameworkCore.Relational (>= 9.0.0-preview.1.24081.2 && <= 9.0.0-preview.1.999999).",
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Pomelo.EntityFrameworkCore.MySql 8.0.2 requires Microsoft.EntityFrameworkCore.Relational (>= 8.0.2 && <= 8.0.999) but version Microsoft.EntityFrameworkCore.Relational 9.0.0-rc.1.24451.1 was resolved.",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "net8.0"
