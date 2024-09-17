@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/home/matheus/Documents/CsProjects/DioChallenges/Minimal-api/minimal-api/minimal-api.csproj": {}
+    "C:\\Users\\mathe\\Documents\\Projetos\\minimal-api\\minimal-api\\minimal-api.csproj": {}
   },
   "projects": {
-    "/home/matheus/Documents/CsProjects/DioChallenges/Minimal-api/minimal-api/minimal-api.csproj": {
+    "C:\\Users\\mathe\\Documents\\Projetos\\minimal-api\\minimal-api\\minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/matheus/Documents/CsProjects/DioChallenges/Minimal-api/minimal-api/minimal-api.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\Documents\\Projetos\\minimal-api\\minimal-api\\minimal-api.csproj",
         "projectName": "minimal-api",
-        "projectPath": "/home/matheus/Documents/CsProjects/DioChallenges/Minimal-api/minimal-api/minimal-api.csproj",
-        "packagesPath": "/home/matheus/.nuget/packages/",
-        "outputPath": "/home/matheus/Documents/CsProjects/DioChallenges/Minimal-api/minimal-api/obj/",
+        "projectPath": "C:\\Users\\mathe\\Documents\\Projetos\\minimal-api\\minimal-api\\minimal-api.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathe\\Documents\\Projetos\\minimal-api\\minimal-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/matheus/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -40,23 +48,23 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0-rc.1.24451.1, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-rc.1.24451.1, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[9.0.0-rc.1.24451.1, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-rc.1.24451.1, )"
+              "version": "[8.0.8, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -82,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
